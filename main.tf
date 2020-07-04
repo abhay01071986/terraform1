@@ -1,9 +1,9 @@
 terraform {
  backend "remote" {
-   organization = "example-organization"
+   organization = "abhay_test"
 
    workspaces {
-     name = "example-workspace"
+     name = "terraform"
    }
  }
 }
